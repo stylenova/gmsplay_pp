@@ -1,5 +1,0 @@
-СБОРКА СДЕЛАНА НА БАЗЕ ВИДЕО ( https://www.youtube.com/watch?v=jU88mLuLWlk )
-
-- Версия node.js ( 16.13.1 LTS => ПЕРЕНОСНОЙ-ДИСК:\PROGRAMS\FOR INSTALATION )
-- Версия gulp.js ( CLI version: 2.3.0, Local version: 4.0.2 => УСТАВКА ЧЕРЕЗ КОМАНДУ npm i gulp-cli@2.3.0 -g  А ТАК ЖЕ УСТАВКА ДЛЯ КОНКРЕТНОГО ПРОЕКТА npm i gulp@4.0.2 -D )
-- Установить git bash ( https://git-scm.com/downloads ) если требуеться
