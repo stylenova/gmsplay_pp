@@ -1,0 +1,791 @@
+<!-- Вызов svg snipents +icon("name-class", "modifier"), сам миксин подключаеться в шалонах --><!DOCTYPE html>
+<html lang="ru-Ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home
+    </title>
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./css/game.min.css?_v=20240920183825">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css?_v=20240920183825">
+  </head>
+  <body>
+    <div id="background"></div>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <div class="header__item header__item_logo"><a href="/">gmsplay.pro</a>
+            <div class="lang-wrap">
+              <ul class="lang">
+                <li><a class="lang__name lang__name_ua" href="#" data-lang="ua">
+                    <svg width="55" height="36" viewBox="0 0 55 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M-2.37961e-08 5.45455C-1.06539e-08 2.44208 2.44208 1.06539e-08 5.45455 2.37961e-08L49.0909 2.14165e-07C52.1034 2.27307e-07 54.5455 2.44208 54.5455 5.45455L54.5455 18L-7.85273e-08 18L-2.37961e-08 5.45455Z" fill="#00C7F2"/>
+<path d="M-2.37961e-08 5.45455C-1.06539e-08 2.44208 2.44208 1.06539e-08 5.45455 2.37961e-08L49.0909 2.14165e-07C52.1034 2.27307e-07 54.5455 2.44208 54.5455 5.45455L54.5455 18L-7.85273e-08 18L-2.37961e-08 5.45455Z" fill="#00C7F2"/>
+<path d="M-2.37961e-08 5.45455C-1.06539e-08 2.44208 2.44208 1.06539e-08 5.45455 2.37961e-08L49.0909 2.14165e-07C52.1034 2.27307e-07 54.5455 2.44208 54.5455 5.45455L54.5455 18L-7.85273e-08 18L-2.37961e-08 5.45455Z" fill="#00C7F2"/>
+<path d="M54.5469 30.5455C54.5469 33.5579 52.1048 36 49.0923 36L5.45597 36C2.4435 36 0.00141558 33.5579 0.00141597 30.5455L0.00141763 18L54.5469 18L54.5469 30.5455Z" fill="#F2CB00"/>
+</svg>Ua</a></li>
+                <li><a class="lang__name lang__name_en active" href="#" data-lang="en">
+                    <svg width="56" height="34" viewBox="0 0 56 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3043_1546)">
+<path d="M0 0V33.2H55.3333V0H0Z" fill="#012169"/>
+<path d="M0 0L55.3333 33.2ZM55.3333 0L0 33.2Z" fill="black"/>
+<path d="M0 0L55.3333 33.2M55.3333 0L0 33.2" stroke="white" stroke-width="6.64"/>
+<mask id="mask0_3043_1546" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="56" height="34">
+<path d="M27.6745 16.6H55.3411V33.2L27.6745 16.6ZM27.6745 16.6V33.2H0.0078125L27.6745 16.6ZM27.6745 16.6H0.0078125V0L27.6745 16.6ZM27.6745 16.6V0H55.3411L27.6745 16.6Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_3043_1546)">
+<path d="M0.0078125 0L55.3411 33.2ZM55.3411 0L0.0078125 33.2Z" fill="black"/>
+<path d="M0.0078125 0L55.3411 33.2M55.3411 0L0.0078125 33.2" stroke="#C8102E" stroke-width="4.42667"/>
+</g>
+<path d="M-1.10938 12.1736H23.2373V-1.10645H32.0906V12.1736H56.4373V21.0269H32.0906V34.3069H23.2373V21.0269H-1.10938V12.1736Z" fill="#C8102E" stroke="white" stroke-width="2.21333"/>
+</g>
+<defs>
+<clipPath id="clip0_3043_1546">
+<rect width="55.3333" height="33.2" rx="5.45" fill="white"/>
+</clipPath>
+</defs>
+</svg>En</a></li>
+                <li>
+                  <ul class="lang__inner">
+                    <li><a class="lang__name lang__name_ua lang__name_inner" href="#" data-lang="ua">
+                        <svg width="55" height="36" viewBox="0 0 55 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M-2.37961e-08 5.45455C-1.06539e-08 2.44208 2.44208 1.06539e-08 5.45455 2.37961e-08L49.0909 2.14165e-07C52.1034 2.27307e-07 54.5455 2.44208 54.5455 5.45455L54.5455 18L-7.85273e-08 18L-2.37961e-08 5.45455Z" fill="#00C7F2"/>
+<path d="M-2.37961e-08 5.45455C-1.06539e-08 2.44208 2.44208 1.06539e-08 5.45455 2.37961e-08L49.0909 2.14165e-07C52.1034 2.27307e-07 54.5455 2.44208 54.5455 5.45455L54.5455 18L-7.85273e-08 18L-2.37961e-08 5.45455Z" fill="#00C7F2"/>
+<path d="M-2.37961e-08 5.45455C-1.06539e-08 2.44208 2.44208 1.06539e-08 5.45455 2.37961e-08L49.0909 2.14165e-07C52.1034 2.27307e-07 54.5455 2.44208 54.5455 5.45455L54.5455 18L-7.85273e-08 18L-2.37961e-08 5.45455Z" fill="#00C7F2"/>
+<path d="M54.5469 30.5455C54.5469 33.5579 52.1048 36 49.0923 36L5.45597 36C2.4435 36 0.00141558 33.5579 0.00141597 30.5455L0.00141763 18L54.5469 18L54.5469 30.5455Z" fill="#F2CB00"/>
+</svg>Ua</a></li>
+                    <li><a class="lang__name lang__name_en lang__name_inner" href="#" data-lang="en">
+                        <svg width="56" height="34" viewBox="0 0 56 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3043_1546)">
+<path d="M0 0V33.2H55.3333V0H0Z" fill="#012169"/>
+<path d="M0 0L55.3333 33.2ZM55.3333 0L0 33.2Z" fill="black"/>
+<path d="M0 0L55.3333 33.2M55.3333 0L0 33.2" stroke="white" stroke-width="6.64"/>
+<mask id="mask0_3043_1546" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="56" height="34">
+<path d="M27.6745 16.6H55.3411V33.2L27.6745 16.6ZM27.6745 16.6V33.2H0.0078125L27.6745 16.6ZM27.6745 16.6H0.0078125V0L27.6745 16.6ZM27.6745 16.6V0H55.3411L27.6745 16.6Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_3043_1546)">
+<path d="M0.0078125 0L55.3411 33.2ZM55.3411 0L0.0078125 33.2Z" fill="black"/>
+<path d="M0.0078125 0L55.3411 33.2M55.3411 0L0.0078125 33.2" stroke="#C8102E" stroke-width="4.42667"/>
+</g>
+<path d="M-1.10938 12.1736H23.2373V-1.10645H32.0906V12.1736H56.4373V21.0269H32.0906V34.3069H23.2373V21.0269H-1.10938V12.1736Z" fill="#C8102E" stroke="white" stroke-width="2.21333"/>
+</g>
+<defs>
+<clipPath id="clip0_3043_1546">
+<rect width="55.3333" height="33.2" rx="5.45" fill="white"/>
+</clipPath>
+</defs>
+</svg>En</a></li>
+                  </ul>
+                </li>
+              </ul><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.5287 13.3791C8.74745 13.1607 9.04397 13.0379 9.35314 13.0379C9.66231 13.0379 9.95883 13.1607 10.1776 13.3791L15.9643 19.1658L21.7509 13.3791C21.8577 13.2645 21.9865 13.1726 22.1296 13.1088C22.2727 13.045 22.4272 13.0108 22.5839 13.008C22.7405 13.0052 22.8961 13.034 23.0414 13.0927C23.1867 13.1514 23.3186 13.2387 23.4294 13.3495C23.5402 13.4603 23.6275 13.5923 23.6862 13.7375C23.7449 13.8828 23.7737 14.0384 23.771 14.1951C23.7682 14.3517 23.7339 14.5062 23.6701 14.6493C23.6064 14.7924 23.5144 14.9212 23.3998 15.028L16.7887 21.6391C16.5699 21.8576 16.2734 21.9803 15.9643 21.9803C15.6551 21.9803 15.3586 21.8576 15.1398 21.6391L8.5287 15.028C8.31022 14.8093 8.1875 14.5127 8.1875 14.2036C8.1875 13.8944 8.31022 13.5979 8.5287 13.3791Z" fill="white"/>
+</svg>
+            </div>
+          </div>
+          <div class="header__item header__item_menu">
+            <div class="balance"> 
+              <div class="balance__item" data-lang="text_1">Balance:</div>
+              <div class="balance__item balance__item_sum"> <span>12000</span>$</div>
+              <div class="balance__item balance__item_switch">
+                <ul class="balance-switch">
+                  <li class="active"><span class="balance-switch__item balance-switch__item_status"></span><span class="balance-switch__item balance-switch__item_bill balance-switch__item_bill-r" data-lang="text_45">Realnyi</span></li>
+                  <li><span class="balance-switch__item balance-switch__item_status"><img src="img/uil--truck-loading.svg" alt="loading"></span><span class="balance-switch__item balance-switch__item_bill balance-switch__item_bill-v" data-lang="text_47">Trahunok</span></li>
+                </ul>
+              </div>
+              <div class="balance__item balance__item_chenge chenge-balance">
+                <div class="chenge-balance__item">
+                  <label class="chenge-balance__chackbox-label chackbox-labe">
+                    <div class="chackbox-labe__item">
+                      <input class="chenge-balance__chackbox-input chenge-balance__chackbox-input-r" type="radio" checked="" name="rate"><span class="chenge-balance__chackbox-style"></span>
+                    </div>
+                    <div class="chackbox-labe__item">
+                      <div class="chenge-balance__chackbox-text" data-lang="text_46">Real rahunok</div>
+                      <div class="chenge-balance__chackbox-sum"> <span>12000</span>$</div>
+                    </div>
+                  </label>
+                </div>
+                <div class="chenge-balance__item">
+                  <label class="chenge-balance__chackbox-label chackbox-labe">
+                    <div class="chackbox-labe__item">
+                      <input class="chenge-balance__chackbox-input chenge-balance__chackbox-input-v" type="radio" name="rate"><span class="chenge-balance__chackbox-style"></span>
+                    </div>
+                    <div class="chackbox-labe__item">
+                      <div class="chenge-balance__chackbox-text" data-lang="text_48">Навчальний рахунок</div>
+                      <div class="chenge-balance__chackbox-sum"> <span>1000</span>$</div>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div><a class="btn btn_cash" href="/demo/balance.html" data-lang="text_77">Cash</a>
+            <div class="menu-icon">
+              <svg class="icon icon_close">
+                <use xlink:href="img/icons/icons.svg#close"></use>
+              </svg>
+              <svg class="icon icon_menu">
+                <use xlink:href="img/icons/icons.svg#menu"></use>
+              </svg>
+            </div>
+            <ul class="menu">
+              <li><a href="/demo/game.html" data-lang="text_5"></a></li>
+              <li><a href="/demo/user-account.html" data-lang="text_6"></a></li>
+              <li><a href="/demo/history.html" data-lang="text_7"></a></li>
+              <li><a href="/demo/achievements.html" data-lang="text_8"></a></li>
+              <li><a href="/demo/game-rules.html" data-lang="text_9"></a></li>
+              <li><a href="/demo/autorization.html" data-lang="text_121"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <section class="main">
+        <div class="container">
+          <div class="head-bar">
+            <div class="head-bar__item head-bar__item_1">
+              <div class="doors-passed">
+                <div class="doors-passed__item doors-passed__item_head">
+                  <h4 class="doors-passed__title" data-lang="text_11"></h4>
+                </div>
+                <div class="doors-passed__item doors-passed__item_bottom">
+                  <div class="doors-passed__dots door-dots">
+                    <div class="door-dots__item door-dots__item_line-1"></div>
+                    <div class="door-dots__item door-dots__item_line-1"></div>
+                    <div class="door-dots__item door-dots__item_line-1"></div>
+                    <div class="door-dots__item door-dots__item_line-1"></div>
+                    <div class="door-dots__item door-dots__item_line-2"></div>
+                    <div class="door-dots__item door-dots__item_line-2"></div>
+                    <div class="door-dots__item door-dots__item_line-2"></div>
+                    <div class="door-dots__item door-dots__item_line-2"></div>
+                    <div class="door-dots__item door-dots__item_line-3"></div>
+                    <div class="door-dots__item door-dots__item_line-3"></div>
+                    <div class="door-dots__item door-dots__item_line-3"></div>
+                    <div class="door-dots__item door-dots__item_line-3"></div>
+                  </div>
+                  <div class="doors-passed__loader">
+                    <div class="doors-loader"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="head-bar__item head-bar__item_2">
+              <div class="bum">
+                <div class="bum__item bum__item_1">
+                  <div class="count">0</div>
+                </div>
+                <div class="bum__item bum__item_2"><svg width="83" height="80" viewBox="0 0 83 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M56.6219 19.2969C59.9728 22.0098 62.6038 25.4952 64.2855 29.449C65.9672 33.4027 66.6484 37.7048 66.2697 41.9799C65.0116 56.4253 52.3075 67.1483 37.9169 65.9075C23.5263 64.6667 12.8327 51.9714 14.1023 37.5298C15.372 23.0883 28.0414 12.3844 42.4475 13.6022C47.6418 14.043 52.5816 16.0276 56.6219 19.2969Z" fill="#E1E1E1"/>
+<path d="M57.2086 14.4989C57.4864 15.1921 56.7455 18.7116 56.6181 19.2975C52.759 18.4167 49.3784 17.038 47.7422 14.6138L47.8001 14.4262C47.8001 14.4262 50.5439 11.4582 51.2733 11.5195C52.0026 11.5808 56.8998 13.7407 57.2086 14.4989Z" fill="#31293A"/>
+<path d="M53.4062 12.6497C53.4062 12.6497 53.449 12.3783 53.5415 11.8851C53.6339 11.3919 53.7828 10.7076 53.9984 9.85122C54.2599 8.82301 54.5557 7.84025 54.8833 6.91126C55.3117 5.68831 55.8048 4.58562 56.3518 3.62724C57.0254 2.53262 57.7909 1.75247 58.6025 1.33339C59.4974 0.804769 60.4352 0.751089 61.341 1.17664C61.8163 1.35923 62.2849 1.62122 62.7427 1.96038C63.2209 2.30648 63.6719 2.81728 64.0794 3.47432L64.379 3.99425C64.4748 4.17776 64.5672 4.37656 64.6614 4.55624C64.8548 4.91179 65.0345 5.29411 65.2262 5.65348C65.5941 6.39898 65.9638 7.14447 66.3301 7.85557C66.6847 8.55144 67.0661 9.17577 67.47 9.72123C67.6722 9.96275 67.8829 10.1673 68.0998 10.3329C68.2068 10.4239 68.316 10.5017 68.4268 10.5661L68.7691 10.7229L68.8529 10.7611L68.8957 10.784H68.906H68.9282L69.1079 10.8261H69.1987H69.4314C69.6433 10.7943 69.8522 10.6992 70.0527 10.5432C70.2521 10.3929 70.4442 10.1982 70.6261 9.96209C70.8129 9.73094 70.9935 9.47563 71.1669 9.19747C71.5255 8.63032 71.8637 8.00141 72.1785 7.31651C72.49 6.62453 72.7587 5.85992 73.0342 5.13353C73.5751 3.68458 74.1159 2.2471 74.8313 1.41367C74.9221 1.32191 75.0111 1.2187 75.1035 1.14606C75.1955 1.0686 75.2899 1.006 75.3859 0.958732L75.5279 0.889908H75.5707H75.6033H75.6683L75.9216 0.828737C76.006 0.801001 76.0913 0.786952 76.1766 0.786689L76.4316 0.767578C76.6028 0.767578 76.7585 0.798157 76.916 0.809626C77.455 0.89556 77.9835 1.18647 78.4786 1.66982C78.7985 1.97528 79.0989 2.37378 79.3721 2.85498C79.4662 3.02319 79.533 3.16847 79.5792 3.26787L79.6288 3.38257L79.6476 3.42844C79.6682 3.48104 79.6794 3.54882 79.679 3.61872C79.6785 3.68862 79.6665 3.75569 79.6453 3.80698C79.624 3.85827 79.595 3.89016 79.5638 3.8965C79.5326 3.90285 79.5015 3.88319 79.4765 3.84133L79.4662 3.82222L79.4046 3.70752C79.3601 3.63106 79.2933 3.5202 79.2009 3.38257C78.933 2.99073 78.6459 2.66876 78.3451 2.42297C77.8768 2.04408 77.386 1.82122 76.8886 1.76157C76.5833 1.73001 76.2773 1.74535 75.9729 1.80746L75.7179 1.86862H75.6546H75.6221H75.5998L75.4834 1.9145C75.3233 1.99404 75.1673 2.11062 75.0179 2.26239C74.3983 2.91232 73.8352 4.19305 73.3064 5.63436C73.0411 6.36456 72.7672 7.11771 72.4968 7.92821C72.226 8.78979 71.92 9.59351 71.5828 10.3291C71.2045 11.1171 70.7428 11.6775 70.241 11.9577C69.9819 12.0934 69.7164 12.1589 69.4503 12.1527L69.2432 12.1298H69.1422L69.0515 12.0992L68.8718 12.0495H68.8495H68.8255H68.8136L68.7656 12.0227L68.6732 11.9768L68.2984 11.7819C68.1736 11.7038 68.0507 11.6106 67.9304 11.5028C67.6861 11.302 67.4497 11.0565 67.2235 10.7688C66.7879 10.1665 66.3882 9.44332 66.034 8.61637C65.6917 7.81352 65.3597 6.99919 65.0071 6.26516C64.6551 5.54486 64.2542 4.95387 63.8193 4.5142C63.6173 4.25805 63.3999 4.07072 63.1963 3.82604C62.9926 3.58137 62.7752 3.4208 62.5681 3.20288C62.1438 2.82826 61.7065 2.53163 61.2605 2.31592C60.4347 1.80247 59.5623 1.79322 58.7343 2.28916C58.3533 2.52756 57.99 2.88951 57.656 3.36344C57.5739 3.46667 57.4951 3.58519 57.4164 3.7037C57.3377 3.82222 57.2606 3.92926 57.1888 4.05542L56.9663 4.40715C56.8944 4.53331 56.8225 4.648 56.7506 4.76652C56.2315 5.64176 55.7537 6.63327 55.3249 7.72558C54.9863 8.57559 54.6702 9.46918 54.3784 10.4017C54.1319 11.1664 53.9522 11.8048 53.8358 12.2406C53.7195 12.6765 53.6647 12.9059 53.6647 12.9059C53.6486 12.9665 53.6231 13.0119 53.5931 13.0332C53.563 13.0545 53.5305 13.0504 53.5017 13.0215C53.4729 12.9927 53.4499 12.9412 53.437 12.8768C53.4241 12.8125 53.4223 12.7398 53.4319 12.6727L53.4062 12.6497Z" fill="#A59789"/>
+<g style="mix-blend-mode:hard-light">
+<path d="M42.2727 17.2138C41.9216 15.7509 38.4599 15.3947 35.0099 16.1836C31.8956 16.8921 29.1402 18.9027 29.0862 20.243C29.0515 21.1928 32.7022 19.6035 36.1561 19.1133C38.9462 18.7227 42.8014 19.389 42.2727 17.2138Z" fill="white"/>
+</g>
+<path d="M31.5706 33.8077C31.594 33.5384 31.5364 33.2683 31.4051 33.0315C31.2738 32.7946 31.0748 32.6017 30.8331 32.4772C30.5914 32.3526 30.3179 32.3019 30.0471 32.3315C29.7764 32.3611 29.5206 32.4696 29.312 32.6435C29.1034 32.8173 28.9515 33.0486 28.8753 33.3081C28.7991 33.5676 28.8022 33.8436 28.884 34.1014C28.9659 34.3592 29.123 34.5871 29.3353 34.7564C29.5477 34.9256 29.8058 35.0286 30.0772 35.0523C30.4414 35.0831 30.8031 34.9695 31.083 34.7362C31.3629 34.5029 31.5383 34.169 31.5706 33.8077Z" fill="black"/>
+<path d="M49.4144 38.5297C49.4378 38.2602 49.3802 37.9899 49.2488 37.753C49.1174 37.516 48.9181 37.3231 48.6762 37.1985C48.4343 37.074 48.1605 37.0234 47.8897 37.0533C47.6188 37.0831 47.3629 37.1921 47.1544 37.3663C46.9459 37.5405 46.7942 37.7721 46.7184 38.0319C46.6426 38.2917 46.6462 38.568 46.7286 38.8258C46.8111 39.0836 46.9688 39.3113 47.1817 39.4801C47.3946 39.649 47.6532 39.7514 47.9247 39.7743C48.2886 39.8051 48.6498 39.6913 48.9291 39.4579C49.2084 39.2246 49.3829 38.8907 49.4144 38.5297Z" fill="black"/>
+<path d="M33.4515 35.179C33.4673 35.2523 33.4789 35.3265 33.4862 35.4011C33.5039 35.5909 33.5039 35.7819 33.4862 35.9717C33.4643 36.2424 33.4112 36.5096 33.328 36.7683C33.2808 36.9153 33.2228 37.0587 33.1543 37.1972C33.09 37.3435 33.0138 37.4844 32.9267 37.6185C32.84 37.7522 32.7446 37.8801 32.6411 38.0015C32.5433 38.1219 32.4362 38.2346 32.3208 38.3384C32.2147 38.4371 32.1025 38.5292 31.985 38.6142C31.8827 38.6916 31.7743 38.7608 31.6609 38.821C31.5684 38.8781 31.4717 38.9281 31.3714 38.9703L31.1399 39.0623L30.9354 39.1312C30.9103 39.1403 30.8837 39.1443 30.857 39.143C30.8304 39.1417 30.8042 39.1352 30.7801 39.1238C30.7561 39.1124 30.7345 39.0963 30.7168 39.0765C30.699 39.0568 30.6854 39.0337 30.6768 39.0086C30.662 38.9699 30.6601 38.9275 30.6712 38.8876C30.6822 38.8477 30.7058 38.8123 30.7385 38.7865L30.8929 38.6601L31.0704 38.5261C31.1438 38.4802 31.2055 38.4036 31.2865 38.3423C31.3714 38.2711 31.4525 38.1957 31.5297 38.1163C31.6107 38.0321 31.7033 37.9478 31.7844 37.8521C31.8654 37.7563 31.9542 37.6606 32.0275 37.5534C32.1099 37.4482 32.186 37.3382 32.2552 37.224C32.5163 36.801 32.7188 36.345 32.8572 35.8683C32.9189 35.673 32.9575 35.4854 32.9845 35.382C33.0018 35.3214 33.016 35.2601 33.027 35.1982C33.041 35.1585 33.0671 35.1242 33.1017 35.0999C33.1363 35.0756 33.1776 35.0625 33.2199 35.0625C33.2623 35.0625 33.3036 35.0756 33.3382 35.0999C33.3727 35.1242 33.3989 35.1585 33.4129 35.1982L33.4515 35.179Z" fill="black"/>
+<path d="M32.8561 37.1318L32.9525 37.2237L33.2227 37.4612C33.35 37.5607 33.4928 37.691 33.6703 37.8212C33.8479 37.9514 34.0562 38.1007 34.2762 38.2501C34.4962 38.3994 34.747 38.5679 35.0249 38.7096C35.3027 38.8513 35.5806 39.0275 35.8893 39.1654C36.198 39.3032 36.5184 39.4564 36.8502 39.5828L37.869 39.9351L38.9303 40.1955C39.1016 40.2381 39.2757 40.2689 39.4513 40.2874L39.9491 40.3602C40.2702 40.404 40.5936 40.4296 40.9177 40.4368C41.2081 40.4562 41.4995 40.4562 41.7899 40.4368C42.0639 40.4368 42.3032 40.387 42.527 40.3679C42.7508 40.3487 42.9129 40.2989 43.0865 40.2721L43.4377 40.1879L43.5535 40.1534H43.5767C43.602 40.1452 43.6287 40.1422 43.6552 40.1446C43.6818 40.1469 43.7075 40.1546 43.731 40.1671C43.7544 40.1797 43.7751 40.1968 43.7917 40.2175C43.8083 40.2382 43.8205 40.2619 43.8275 40.2874C43.8426 40.3334 43.8403 40.3831 43.8211 40.4275C43.802 40.4719 43.7672 40.5079 43.7233 40.5287L43.5882 40.59C43.5033 40.6206 43.3798 40.6819 43.2023 40.7355C43.0248 40.7891 42.8434 40.8581 42.6119 40.904C42.3583 40.9695 42.1004 41.0168 41.8401 41.0457C41.5307 41.0906 41.2187 41.1149 40.9062 41.1185H40.3968C40.308 41.1185 40.2192 41.1185 40.1305 41.1185L39.8565 41.0917L39.3008 41.0304C39.1122 41.0153 38.9252 40.9859 38.7412 40.9423L37.6375 40.6819L36.5531 40.2989C36.2019 40.1611 35.8739 39.9772 35.5459 39.8279C35.2178 39.6785 34.9361 39.4679 34.6544 39.2994C34.3727 39.1309 34.1334 38.9164 33.8826 38.7556C33.6317 38.5947 33.4619 38.3994 33.2844 38.2462C33.1069 38.0931 32.9757 37.936 32.8599 37.8173C32.7441 37.6986 32.6592 37.5876 32.6014 37.5186L32.5165 37.4114C32.4849 37.3683 32.4713 37.3148 32.4784 37.262C32.4856 37.2092 32.5131 37.1612 32.5551 37.128C32.5921 37.0964 32.6394 37.0791 32.6882 37.0791C32.737 37.0791 32.7843 37.0964 32.8213 37.128L32.8561 37.1318Z" fill="black"/>
+<path d="M44.8605 38.6981L44.7795 38.859C44.7255 38.9586 44.6522 39.1079 44.5711 39.2879C44.385 39.7177 44.2553 40.1695 44.1852 40.6321C44.1597 40.7584 44.1442 40.8864 44.1389 41.0151C44.1389 41.1376 44.1389 41.2602 44.1389 41.3789C44.1389 41.4976 44.1389 41.6125 44.1389 41.7236C44.1389 41.8346 44.1621 41.938 44.1736 42.0338C44.1852 42.1295 44.1736 42.2214 44.2084 42.3018L44.2508 42.5086L44.2817 42.6925V42.7154C44.2895 42.7687 44.2762 42.8228 44.2445 42.8664C44.2128 42.91 44.1652 42.9397 44.1119 42.949C44.0711 42.9553 44.0293 42.9491 43.9921 42.9313C43.955 42.9135 43.924 42.885 43.9035 42.8495L43.7993 42.6733L43.6874 42.4627C43.6428 42.3712 43.6054 42.2765 43.5755 42.1793C43.5288 42.0657 43.4939 41.9476 43.4713 41.827C43.4384 41.6933 43.4139 41.5577 43.398 41.421C43.3882 41.2731 43.3882 41.1247 43.398 40.9768C43.4012 40.8242 43.4141 40.672 43.4365 40.5211C43.4599 40.3697 43.4934 40.22 43.5369 40.073C43.6524 39.6837 43.8324 39.3161 44.0694 38.9854C44.1767 38.8374 44.2982 38.7002 44.4322 38.5756C44.4827 38.5258 44.5369 38.4797 44.5943 38.4377C44.612 38.4181 44.6335 38.4022 44.6574 38.3908C44.6814 38.3794 44.7073 38.3728 44.7339 38.3714C44.7604 38.37 44.7869 38.3737 44.812 38.3825C44.837 38.3912 44.8601 38.4048 44.8798 38.4224C44.8996 38.44 44.9157 38.4613 44.9272 38.4851C44.9386 38.5088 44.9453 38.5346 44.9467 38.5609C44.9481 38.5873 44.9443 38.6136 44.9355 38.6384C44.9267 38.6633 44.913 38.6862 44.8953 38.7058L44.8605 38.6981Z" fill="black"/>
+<g style="mix-blend-mode:hard-light">
+<path d="M27.7759 20.5145C27.2201 20.0435 25.198 21.1924 25.5684 22.1191C25.9389 23.0459 28.9143 21.5064 27.7759 20.5145Z" fill="white"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.2">
+<path d="M59.1848 31.2649C58.0772 30.9241 60.2345 47.6787 43.1541 53.8598C31.6925 58.0073 22.6159 52.4926 22.2146 54.124C21.8132 55.7554 32.0128 66.9227 46.6697 62.4879C64.8307 56.9886 64.3406 32.858 59.1848 31.2649Z" fill="#22182A"/>
+</g>
+<path d="M76.3769 1.2365C76.476 1.24605 76.5742 1.26398 76.6702 1.29011C76.9119 1.35461 77.145 1.44716 77.3648 1.56585C77.5107 1.64048 77.6512 1.72493 77.7855 1.81861C77.9283 1.91818 78.0749 2.03306 78.2254 2.14795C78.5424 2.389 78.887 2.5921 79.2519 2.75304C79.4333 2.84112 79.6379 2.92154 79.7999 3.01345C79.9731 3.10436 80.1406 3.20539 80.3016 3.316C80.6103 3.53811 80.8959 3.74874 81.1313 3.94788C81.3986 4.16631 81.6477 4.4058 81.8761 4.66402C81.883 4.67079 81.8885 4.67884 81.8922 4.68771C81.8959 4.69659 81.8979 4.70611 81.8979 4.71573C81.8979 4.72534 81.8959 4.73486 81.8922 4.74373C81.8885 4.7526 81.883 4.76066 81.8761 4.76742C81.8658 4.77174 81.8546 4.77397 81.8433 4.77397C81.8321 4.77397 81.8209 4.77174 81.8105 4.76742C81.476 4.67481 81.1495 4.55572 80.8342 4.41127C80.5525 4.28872 80.236 4.12788 79.9003 3.94788C79.7291 3.85367 79.5641 3.74878 79.4063 3.63385C79.2481 3.51513 79.0899 3.38109 78.9316 3.25089C78.6262 2.99756 78.292 2.78037 77.936 2.60368C77.7662 2.5156 77.5964 2.439 77.4459 2.35475C77.3017 2.27507 77.1626 2.18683 77.0291 2.09051C76.828 1.94429 76.6442 1.77599 76.4811 1.58882C76.4128 1.51451 76.3521 1.43369 76.2997 1.34756C76.2887 1.3272 76.2861 1.30335 76.2926 1.28114C76.2991 1.25892 76.3141 1.24014 76.3345 1.22884C76.349 1.22754 76.3637 1.23019 76.3769 1.2365Z" fill="#EECA54"/>
+<path d="M79.808 0.0646388C79.8321 0.161555 79.8488 0.260131 79.8581 0.359528C79.8862 0.605112 79.8862 0.853062 79.8581 1.09865C79.8374 1.25998 79.8065 1.41986 79.7655 1.57735C79.7192 1.74586 79.6613 1.92202 79.6073 2.10201C79.4918 2.47565 79.4193 2.86107 79.3912 3.2509C79.3719 3.45387 79.3642 3.65685 79.3372 3.85216C79.3125 4.04585 79.2751 4.23774 79.2252 4.4266C79.1249 4.79042 79.0246 5.13125 78.9165 5.41465C78.8043 5.74029 78.6662 6.05659 78.5036 6.36057C78.4988 6.36888 78.4924 6.37617 78.4847 6.38202C78.4771 6.38787 78.4683 6.39217 78.459 6.39466C78.4497 6.39715 78.44 6.39779 78.4304 6.39654C78.4208 6.39529 78.4116 6.39217 78.4032 6.38738C78.3927 6.38147 78.3838 6.3732 78.3771 6.36322C78.3704 6.35324 78.3661 6.34184 78.3647 6.32993C78.3368 5.98838 78.3368 5.64515 78.3647 5.30359C78.3647 4.99722 78.4225 4.6449 78.4766 4.27342C78.5065 4.08068 78.549 3.89006 78.6039 3.7028C78.6579 3.51131 78.7274 3.31983 78.793 3.12835C78.9244 2.75636 79.0137 2.37103 79.0593 1.97946C79.0786 1.78798 79.094 1.5965 79.121 1.43566C79.1472 1.27405 79.1833 1.11419 79.2291 0.956951C79.295 0.718661 79.3882 0.488653 79.5069 0.271443C79.554 0.183305 79.6096 0.0999358 79.6729 0.0225184C79.6808 0.0141732 79.6904 0.00752156 79.701 0.00297747C79.7116 -0.00156662 79.7231 -0.00390625 79.7346 -0.00390625C79.7462 -0.00390625 79.7576 -0.00156662 79.7683 0.00297747C79.7789 0.00752156 79.7884 0.0141732 79.7964 0.0225184C79.8031 0.0356238 79.8071 0.0499574 79.808 0.0646388Z" fill="#EECA54"/>
+<path d="M77.8618 0.512695C77.9394 0.561425 78.0119 0.617886 78.0779 0.6812C78.2462 0.831358 78.3941 1.00257 78.5179 1.19054C78.5985 1.31321 78.6707 1.44116 78.734 1.5735C78.8034 1.71137 78.8652 1.86839 78.9347 2.02541C79.072 2.35461 79.2538 2.6638 79.4749 2.94452C79.583 3.09387 79.6988 3.2394 79.7991 3.38876C79.8971 3.53378 79.9835 3.68615 80.0577 3.84449C80.201 4.125 80.3298 4.4126 80.4436 4.70615C80.5548 4.99687 80.64 5.29674 80.6983 5.60229C80.6999 5.61186 80.6996 5.62166 80.6974 5.63111C80.6952 5.64056 80.691 5.64947 80.6853 5.65732C80.6795 5.66517 80.6723 5.67181 80.6639 5.67683C80.6555 5.68185 80.6462 5.68515 80.6365 5.68654C80.6167 5.69423 80.5946 5.69423 80.5748 5.68654C80.3448 5.47444 80.1343 5.24247 79.9457 4.99338C79.7721 4.77509 79.5907 4.51467 79.4055 4.22745C79.3117 4.07925 79.2292 3.92436 79.1585 3.76406C79.0813 3.59938 79.0196 3.42705 78.954 3.25472C78.8302 2.91926 78.6628 2.60127 78.4561 2.3088C78.3596 2.17093 78.2593 2.03689 78.1783 1.90286C78.1001 1.78004 78.0305 1.65209 77.9699 1.51989C77.8763 1.31587 77.8089 1.10101 77.7692 0.880337C77.7511 0.790818 77.7421 0.699736 77.7422 0.608436C77.7427 0.596363 77.7456 0.584502 77.7507 0.573539C77.7558 0.562575 77.7631 0.552724 77.772 0.544543C77.781 0.536362 77.7915 0.530017 77.8029 0.525867C77.8144 0.521716 77.8265 0.519837 77.8387 0.52035C77.8459 0.516595 77.8537 0.514014 77.8618 0.512695Z" fill="#E5803C"/>
+<path d="M77.0083 5.49147C77.0288 5.39443 77.0585 5.29954 77.0971 5.20808C77.1873 4.97661 77.3052 4.75673 77.4483 4.5532C77.5399 4.41903 77.6404 4.29109 77.7493 4.17024C77.8612 4.04003 77.9962 3.90982 78.1352 3.78728C78.4115 3.50284 78.6525 3.18655 78.853 2.84519C78.961 2.67285 79.0652 2.49669 79.1771 2.33202C79.2862 2.17099 79.4061 2.01745 79.536 1.87246C79.7907 1.58906 80.0339 1.33248 80.2615 1.12568C80.5074 0.884304 80.7733 0.663955 81.0565 0.466985C81.0695 0.456754 81.0856 0.451183 81.1021 0.451172C81.1187 0.45116 81.1347 0.456702 81.1477 0.466914C81.1607 0.477127 81.1698 0.491405 81.1736 0.50741C81.1773 0.523416 81.1755 0.540205 81.1684 0.555059C81.0383 0.872885 80.8835 1.18019 80.7053 1.47418C80.551 1.73843 80.3542 2.0333 80.1381 2.34351C80.0186 2.50161 79.8897 2.6525 79.7521 2.7954C79.6171 2.94093 79.4666 3.08262 79.3199 3.22432C79.0275 3.49703 78.7684 3.80295 78.5481 4.13577C78.4439 4.29279 78.3474 4.44981 78.2432 4.5915C78.1493 4.72604 78.0462 4.854 77.9345 4.97447C77.7653 5.15779 77.5764 5.32217 77.3711 5.46466C77.2896 5.52212 77.2031 5.57212 77.1125 5.61402C77.1016 5.61836 77.09 5.6205 77.0782 5.62034C77.0665 5.62018 77.0549 5.61773 77.0442 5.6131C77.0334 5.60847 77.0237 5.60177 77.0155 5.59338C77.0074 5.58499 77.001 5.57508 76.9967 5.56423C76.9923 5.55212 76.9911 5.5391 76.9931 5.52638C76.9952 5.51366 77.0004 5.50165 77.0083 5.49147Z" fill="#E5803C"/>
+<path d="M81.9823 2.83403C81.9126 2.88623 81.8376 2.93115 81.7585 2.96806C81.5669 3.06293 81.363 3.13123 81.1526 3.17104C80.861 3.2217 80.5646 3.23968 80.2689 3.22464C79.931 3.22609 79.5949 3.27246 79.2694 3.36252C78.9444 3.46229 78.6091 3.52524 78.2699 3.55017C77.9457 3.55017 77.6447 3.55017 77.3823 3.55017C77.0859 3.53752 76.7914 3.49778 76.5024 3.43145C76.4927 3.42971 76.4836 3.42596 76.4755 3.42045C76.4674 3.41494 76.4606 3.40778 76.4554 3.39946C76.4503 3.39114 76.4471 3.38184 76.4458 3.37217C76.4446 3.3625 76.4455 3.35269 76.4484 3.34337C76.4501 3.33252 76.4545 3.32225 76.4612 3.31355C76.468 3.30484 76.4768 3.29798 76.487 3.29359C76.7544 3.16554 77.0336 3.06295 77.3205 2.98721C77.6051 2.90736 77.8936 2.84218 78.185 2.7919C78.5208 2.74168 78.8614 2.7301 79.1999 2.75743C79.5381 2.77327 79.8769 2.74364 80.2071 2.66935C80.492 2.59242 80.7844 2.54619 81.0793 2.53148C81.2935 2.52469 81.5077 2.54659 81.7161 2.59659C81.8005 2.61646 81.8831 2.64336 81.963 2.67701C81.9853 2.68848 82.0021 2.70808 82.01 2.73167C82.018 2.75525 82.0163 2.78098 82.0055 2.80339C82 2.81511 81.9921 2.82554 81.9823 2.83403Z" fill="#E5803C"/>
+<circle opacity="0.2" cx="39.717" cy="39.7196" r="30" transform="rotate(27.0834 39.717 39.7196)" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16 16"/>
+</svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="game">
+            <div class="game__item game-disebael">
+              <div class="game__doors">
+                <div class="doors dream">
+                  <div class="doors__line doors__line_3">
+                    <div class="doors__item doors__item_1">
+                      <svg class="icon icon_lock">
+                        <use xlink:href="img/icons/icons.svg#lock"></use>
+                      </svg>
+                      <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                      <svg class="icon icon_bg-doore">
+                        <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                      </svg><img src="img/doore.svg" alt="sprive"><img class="doors__open" src="img/door_open.svg" alt="sprive"><img class="doors__loser" src="img/loser.svg" alt="sprive">
+                    </div>
+                    <div class="doors__item doors__item_2">
+                      <svg class="icon icon_lock">
+                        <use xlink:href="img/icons/icons.svg#lock"></use>
+                      </svg>
+                      <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                      <svg class="icon icon_bg-doore">
+                        <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                      </svg><img src="img/doore.svg" alt="sprive"><img class="doors__open" src="img/door_open.svg" alt="sprive"><img class="doors__priz" src="img/priz.svg" alt="sprive">
+                    </div>
+                    <div class="doors__item doors__item_3">
+                      <svg class="icon icon_lock">
+                        <use xlink:href="img/icons/icons.svg#lock"></use>
+                      </svg>
+                      <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                      <svg class="icon icon_bg-doore">
+                        <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                      </svg><img src="img/doore.svg" alt="sprive"><img class="doors__open" src="img/door_open.svg" alt="sprive">
+                    </div>
+                    <div class="doors__item doors__item_4">
+                      <svg class="icon icon_lock">
+                        <use xlink:href="img/icons/icons.svg#lock"></use>
+                      </svg>
+                      <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                      <svg class="icon icon_bg-doore">
+                        <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                      </svg><img src="img/doore.svg" alt="sprive"><img class="doors__open" src="img/door_open.svg" alt="sprive">
+                    </div>
+                  </div>
+                  <div class="doors__line doors__line_2">
+                    <div class="doors__item doors__item_1">
+                      <svg class="icon icon_lock">
+                        <use xlink:href="img/icons/icons.svg#lock"></use>
+                      </svg>
+                      <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                      <svg class="icon icon_bg-doore">
+                        <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                      </svg><img src="img/doore.svg" alt="sprive"><img class="doors__open" src="img/door_open.svg" alt="sprive">
+                    </div>
+                    <div class="doors__item doors__item_2">
+                      <svg class="icon icon_lock">
+                        <use xlink:href="img/icons/icons.svg#lock"></use>
+                      </svg>
+                      <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                      <svg class="icon icon_bg-doore">
+                        <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                      </svg><img src="img/doore.svg" alt="sprive"><img class="doors__open" src="img/door_open.svg" alt="sprive">
+                    </div>
+                    <div class="doors__item doors__item_3">
+                      <svg class="icon icon_lock">
+                        <use xlink:href="img/icons/icons.svg#lock"></use>
+                      </svg>
+                      <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                      <svg class="icon icon_bg-doore">
+                        <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                      </svg><img src="img/doore.svg" alt="sprive"><img class="doors__open" src="img/door_open.svg" alt="sprive"><img class="doors__priz" src="img/priz.svg" alt="sprive">
+                    </div>
+                    <div class="doors__item doors__item_4">
+                      <svg class="icon icon_lock">
+                        <use xlink:href="img/icons/icons.svg#lock"></use>
+                      </svg>
+                      <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                      <svg class="icon icon_bg-doore">
+                        <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                      </svg><img src="img/doore.svg" alt="sprive"><img class="doors__open" src="img/door_open.svg" alt="sprive"><img class="doors__loser" src="img/loser.svg" alt="sprive">
+                    </div>
+                  </div>
+                  <div class="doors__line doors__line_1 active">
+                    <div class="doors__item doors__item_1">
+                      <svg class="icon icon_lock">
+                        <use xlink:href="img/icons/icons.svg#lock"></use>
+                      </svg>
+                      <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                      <svg class="icon icon_bg-doore">
+                        <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                      </svg><img src="img/doore.svg" alt="sprive"><img class="doors__open" src="img/door_open.svg" alt="sprive"><img class="doors__priz" src="img/priz.svg" alt="sprive">
+                    </div>
+                    <div class="doors__item doors__item_2">
+                      <svg class="icon icon_lock">
+                        <use xlink:href="img/icons/icons.svg#lock"></use>
+                      </svg>
+                      <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                      <svg class="icon icon_bg-doore">
+                        <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                      </svg><img src="img/doore.svg" alt="sprive"><img class="doors__open" src="img/door_open.svg" alt="sprive"><img class="doors__loser" src="img/loser.svg" alt="sprive">
+                    </div>
+                    <div class="doors__item doors__item_3">
+                      <svg class="icon icon_lock">
+                        <use xlink:href="img/icons/icons.svg#lock"></use>
+                      </svg>
+                      <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                      <svg class="icon icon_bg-doore">
+                        <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                      </svg><img src="img/doore.svg" alt="sprive"><img class="doors__open" src="img/door_open.svg" alt="sprive">
+                    </div>
+                    <div class="doors__item doors__item_4">
+                      <svg class="icon icon_lock">
+                        <use xlink:href="img/icons/icons.svg#lock"></use>
+                      </svg>
+                      <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                      <svg class="icon icon_bg-doore">
+                        <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                      </svg><img src="img/doore.svg" alt="sprive"><img class="doors__open" src="img/door_open.svg" alt="sprive">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="game__item game__item_lottie game-disebael"><dotlottie-player id="lottie-player" class="active grandma-grey" src="https://lottie.host/ede8a463-190f-48c8-8888-8c163fe393b0/8DFN7sP0za.json" background="transparent" speed="1" style="width: 300px; height: 300px" loop></dotlottie-player>
+<dotlottie-player id="lottie-player-loser" src="https://lottie.host/1d78b59a-d4ac-4439-8670-de3656a6e2a5/efm6X6xQf7.json" background="transparent" speed="1" style="width: 250px; height: 260px" loop></dotlottie-player>
+<dotlottie-player id="lottie-player-priz" src="https://lottie.host/d54aa7cf-dc80-465c-8175-871edb269141/zdqnzQUoyp.json" background="transparent" speed="1" style="width: 250px; height: 260px" loop></dotlottie-player>
+            </div>
+            <div class="game__item audio-btn"><i class="fas fa-volume-up"></i></div>
+            <div class="game__item glow active">
+              <div class="glow__text" data-lang="text_122">Tap to play</div>
+            </div>
+          </div>
+          <div class="winnings">
+            <div class="winnings__item"><img class="winnings__img" src="img/chest.svg" alt="sprive">
+              <div class="winnings__info">
+                <div class="max-winnings">
+                  <div class="max-winnings__title" data-lang="text_11">Maximum winnings</div>
+                  <div class="max-winnings__count"><span>0.00</span><span>$</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="winnings__item">
+              <div class="dropdown">
+                <div class="dropdown__btn"><img src="img/bomb.svg" alt="bang"><span class="current-text" data-lang="text_13">number of bombs: 0</span><span> 
+                    <svg class="icon icon_dropdown">
+                      <use xlink:href="img/icons/icons.svg#dropdown"></use>
+                    </svg></span></div>
+                <div class="dropdown-content"><a href="#"><img src="img/bomb.svg" alt="bang">
+                    <sapn data-lang="text_14"> number of bombs: 1</sapn></a><a href="#"><img src="img/bomb.svg" alt="bang">
+                    <sapn data-lang="text_15">number of bombs: 2</sapn></a><a href="#"><img src="img/bomb.svg" alt="bang">
+                    <sapn data-lang="text_16">number of bombs: 3</sapn></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="money">
+            <div class="money__item">
+              <div class="money__count">
+                <div class="counter">
+                  <button class="decrement">-</button>
+                  <div class="wrap-count-money">
+                    <input class="value" type="number" value="0" min="0"><span class="currency">$</span>
+                  </div>
+                  <button class="increment">+</button>
+                </div>
+              </div>
+            </div>
+            <div class="money__item"><a class="btn btn_g btn_play" href="#" data-lang="text_17">Play</a></div>
+          </div>
+          <table class="achievements__table achievements__table_amime">
+            <tr>
+              <th data-lang="text_35">Name</th>
+              <th data-lang="text_36">Spant</th>
+              <th data-lang="text_37">Coefficient</th>
+              <th data-lang="text_38">You will win</th>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-01.webp" type="image/webp"><img src="img/u-01.png" alt="sprive"></picture><span class="name">NNikola</span></td>
+              <td>700$</td>
+              <td>6</td>
+              <td>9100$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-02.webp" type="image/webp"><img src="img/u-02.png" alt="sprive"></picture><span class="achievements__name">Jora77N</span></td>
+              <td>400$</td>
+              <td>5</td>
+              <td>3500$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-03.webp" type="image/webp"><img src="img/u-03.png" alt="sprive"></picture><span class="achievements__name">ГошаME</span></td>
+              <td>270$</td>
+              <td>3</td>
+              <td>1012.50$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-04.webp" type="image/webp"><img src="img/u-04.png" alt="sprive"></picture><span class="achievements__name">Jora77C</span></td>
+              <td>200$</td>
+              <td>2</td>
+              <td>900$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-05.webp" type="image/webp"><img src="img/u-05.png" alt="sprive"></picture><span class="achievements__name">УБTraf</span></td>
+              <td>180$</td>
+              <td>4</td>
+              <td>585$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-06.webp" type="image/webp"><img src="img/u-06.png" alt="sprive"></picture><span class="achievements__name">Race8</span></td>
+              <td>400.50$</td>
+              <td>8</td>
+              <td>800$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-07.webp" type="image/webp"><img src="img/u-07.png" alt="sprive"></picture><span class="achievements__name">7GAME</span></td>
+              <td>40$</td>
+              <td>3</td>
+              <td>520$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-08.webp" type="image/webp"><img src="img/u-08.png" alt="sprive"></picture><span class="achievements__name">НикНетk</span></td>
+              <td>140$</td>
+              <td>7</td>
+              <td>315$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-09.webp" type="image/webp"><img src="img/u-09.png" alt="sprive"></picture><span class="achievements__name">PiРусніp</span></td>
+              <td>350</td>
+              <td>20</td>
+              <td>450$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-10.webp" type="image/webp"><img src="img/u-10.png" alt="sprive"></picture><span class="achievements__name">Jora77Q</span></td>
+              <td>200$</td>
+              <td>2</td>
+              <td>900$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-11.webp" type="image/webp"><img src="img/u-11.png" alt="sprive"></picture><span class="achievements__name">УБTraf</span></td>
+              <td>180$</td>
+              <td>4</td>
+              <td>585$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-12.webp" type="image/webp"><img src="img/u-12.png" alt="sprive"></picture><span class="achievements__name">RaceRJK</span></td>
+              <td>400.50$</td>
+              <td>8</td>
+              <td>800$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-13.webp" type="image/webp"><img src="img/u-13.png" alt="sprive"></picture><span class="achievements__name">7GAME</span></td>
+              <td>40$</td>
+              <td>3</td>
+              <td>520$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-14.webp" type="image/webp"><img src="img/u-14.png" alt="sprive"></picture><span class="achievements__name">НикНетY</span></td>
+              <td>140$</td>
+              <td>7</td>
+              <td>315$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-15.webp" type="image/webp"><img src="img/u-15.png" alt="sprive"></picture><span class="achievements__name">PiРусні0</span></td>
+              <td>350</td>
+              <td>20</td>
+              <td>450$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-16.webp" type="image/webp"><img src="img/u-16.png" alt="sprive"></picture><span class="achievements__name">NameX1</span></td>
+              <td>150$</td>
+              <td>2</td>
+              <td>300$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-17.webp" type="image/webp"><img src="img/u-17.png" alt="sprive"></picture><span class="achievements__name">NameX2</span></td>
+              <td>220$</td>
+              <td>4</td>
+              <td>880$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-18.webp" type="image/webp"><img src="img/u-18.png" alt="sprive"></picture><span class="achievements__name">NameX3</span></td>
+              <td>330$</td>
+              <td>6</td>
+              <td>1980$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-19.webp" type="image/webp"><img src="img/u-19.png" alt="sprive"></picture><span class="achievements__name">NameX4</span></td>
+              <td>410$</td>
+              <td>5</td>
+              <td>2050$</td>
+            </tr>
+            <tr>
+              <td> <picture><source srcset="img/u-20.webp" type="image/webp"><img src="img/u-20.png" alt="sprive"></picture><span class="achievements__name">NameX5</span></td>
+              <td>500$</td>
+              <td>7</td>
+              <td>3500$</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div class="popups">
+      <div class="popups__item popups__item_withdrawal">
+        <form class="form-withdrawal" action="#"><img class="form__close" src="img/close-w.svg" alt="close">
+          <h2 class="form-withdrawal__title" data-lang="text_59">Enter your details</h2>
+          <div class="dropdown-nw">
+            <div class="dropdown-nw__btn"><span class="current-text">Tron TRC-20</span><span> 
+                <svg class="icon icon_dropdown-b">
+                  <use xlink:href="img/icons/icons.svg#dropdown-b"></use>
+                </svg></span></div>
+            <div class="dropdown-nw-content"><a href="#">Tron TRC-20</a><a href="#">Tron TRC-30</a><a href="#">Tron TRC-40</a></div>
+          </div>
+          <div class="dropdown-w">
+            <div class="dropdown-w__btn"><span class="current-text"><img src="img/tether-usdt-logo.svg" alt="tether"></span><span> 
+                <svg class="icon icon_dropdown-b">
+                  <use xlink:href="img/icons/icons.svg#dropdown-b"></use>
+                </svg></span></div>
+            <div class="dropdown-w-content"><a href="#" date-w="t"> <img src="img/tether-usdt-logo.svg" alt="tether"></a></div>
+          </div>
+          <button class="btn btn_mss" data-lang="text_56"></button>
+        </form>
+      </div>
+      <div class="popups__item popups__item_mss">
+        <form class="form-mss" action="#"><img class="form__close" src="img/close-w.svg" alt="close">
+          <h2 class="form-mss__title" data-lang="text_65"> </h2>
+        </form>
+      </div>
+      <div class="popups__item popups__item_update-pass">
+        <form class="form-update-pass" action="#"><img class="form__close" src="img/close-w.svg" alt="close">
+          <h2 class="update-pass__title title" data-lang="text_68"></h2>
+          <input type="email" placeholder="Your email" data-lang="text_63">
+          <button class="btn btn_update-pass" data-lang="text_56"></button>
+        </form>
+      </div>
+      <div class="popups__item popups__item_privacy">
+        <form class="form-update-pass" action="#"><img class="form__close" src="img/close-w.svg" alt="close">
+          <h2 class="update-pass__title title" data-lang="text_69"></h2>
+          <div class="popups__animation">
+            <div class="doors-pr">
+              <div class="doors-pr__line active">
+                <div class="doors-pr__item doors-pr__item_1">
+                  <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                  <svg class="icon icon_bg-doore">
+                    <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                  </svg><img src="img/doore.svg" alt="sprive"><img class="doors-pr__open" src="img/door_open.svg" alt="sprive">
+                </div>
+                <div class="doors-pr__item doors-pr__item_2">
+                  <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                  <svg class="icon icon_bg-doore">
+                    <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                  </svg><img src="img/doore.svg" alt="sprive"><img class="doors-pr__open" src="img/door_open.svg" alt="sprive">
+                </div>
+                <div class="doors-pr__item doors-pr__item_3">
+                  <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                  <svg class="icon icon_bg-doore">
+                    <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                  </svg><img src="img/doore.svg" alt="sprive"><img class="doors-pr__open" src="img/door_open.svg" alt="sprive"><img class="doors-pr__priz" src="img/priz.svg" alt="sprive">
+                </div>
+                <div class="doors-pr__item doors-pr__item_4">
+                  <div class="bomb"><img class="bomb__item" src="img/bomb.svg" alt="bomb"></div>
+                  <svg class="icon icon_bg-doore">
+                    <use xlink:href="img/icons/icons.svg#bg-doore"></use>
+                  </svg><img src="img/doore.svg" alt="sprive"><img class="doors-pr__open" src="img/door_open.svg" alt="sprive"><img class="doors-pr__loser" src="img/loser.svg" alt="sprive">
+                </div>
+              </div>
+            </div>
+            <div class="game">
+              <div class="game__item game__item_grandmother">
+                <div class="game__grandma active"><img class="game__grandma_body" src="img/grandma_body2.svg" alt="sprive"><img class="game__grandma_l" src="img/grandmother_hand_left.svg" alt="sprive"><img class="game__grandma_r" src="img/grandmother_hand_right.svg" alt="sprive"></div>
+              </div>
+            </div>
+          </div>
+          <p data-lang="text_71"></p>
+          <div class="block-checkbox block-checkbox_popup">
+            <div class="cont-checkbox">
+              <label class="checkbox-label">
+                <input class="checkbox" type="checkbox" name="rate"><span class="checkbox-style"></span>
+                <p data-lang="text_70"> </p>
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="popups__item popups__item_privacy-policy">
+        <div class="privacy-policy"><img class="form__close" src="img/close-w.svg" alt="close">
+          <h1 class="privacy__title" data-lang="text_10">Privacy policy</h1>
+          <h4 data-lang="text_001">1. Вступ</h4>
+          <p data-lang="text_002"> Ця Політика конфіденційності визначає, як GMS Play (далі — "Сайт", "ми", "нас", "наш") збирає, використовує, зберігає і захищає особисту інформацію користувачів, які реєструються на нашому сайті та беруть участь в азартних іграх (далі — "Користувачі"). Ми прагнемо забезпечити високий рівень захисту персональних даних та дотримуємось чинних законів про захист даних.</p>
+          <h4 data-lang="text_003"> 2. Збір інформації</h4>
+          <p data-lang="text_004"> Ми можемо збирати та обробляти такі категорії даних:</p>
+          <ul>
+            <li data-lang="text_005"> - Ідентифікаційні дані: Ім'я, прізвище, дата народження, стать, громадянство, адреса проживання, номер паспорта або іншого документа, що посвідчує особу.</li>
+            <li data-lang="text_006"> - Контактні дані: Електронна пошта, номер телефону, адреса проживання.</li>
+            <li data-lang="text_007"> - Фінансові дані: історія транзакцій, депозити, зняття коштів і виграші.</li>
+            <li data-lang="text_008"> - Технічні дані: IP-адреса, інформація про браузер і пристрій, операційна система, налаштування мови, дані про відвідування сторінок.</li>
+            <li data-lang="text_009"> - Дані про діяльність на Сайті: Історія ставок, участь у іграх, ігрові вподобання, бонуси, промоакції.</li>
+            <li data-lang="text_0010"> - Дані про взаємодію з підтримкою: Записи спілкування з нашою службою підтримки, включаючи листування електронною поштою та через чат.</li>
+          </ul>
+          <h4 data-lang="text_0011"> 3. Використання інформації</h4>
+          <p data-lang="text_0012"> Зібрана інформація використовується для:</p>
+          <ul>
+            <li data-lang="text_0013"> - Надання послуг: Забезпечення доступу до наших ігор та інших сервісів, обробки ставок і проведення транзакцій.</li>
+            <li data-lang="text_0014"> - Підтримки законного ігрового процесу: Верифікації особи, дотримання вимог відповідальної гри, запобігання шахрайству і боротьби з відмиванням грошей.</li>
+            <li data-lang="text_0015"> - Маркетингу та реклами: Надання Користувачам інформації про нові ігри, акції, бонуси та інші пропозиції на основі їхніх вподобань та історії гри.</li>
+            <li data-lang="text_0016"> - Аналізу та покращення послуг: Оптимізації роботи сайту, розробки нових функцій та підвищення якості наданих послуг.</li>
+            <li data-lang="text_0017"> - Юридичних цілей: Дотримання законів і нормативних вимог, відповіді на запити від правоохоронних органів та державних установ.</li>
+          </ul>
+          <h4 data-lang="text_0018"> 4. Передача інформації третім особам</h4>
+          <p data-lang="text_0019"> Ми можемо передавати особисту інформацію Користувачів наступним третім сторонам:</p>
+          <ul>
+            <li data-lang="text_0020"> - Платіжні провайдери та фінансові установи: Для обробки депозитів і виплат.</li>
+            <li data-lang="text_0021"> - Партнери з маркетингу: Сторонні компанії, які допомагають нам проводити рекламні кампанії, на підставі згоди Користувача.</li>
+            <li data-lang="text_0022"> - Аналітичні та рекламні служби: Компанії, що надають послуги аналітики, таргетованої реклами та проведення маркетингових досліджень.</li>
+            <li data-lang="text_0023"> - Правоохоронні органи та регуляторні органи: У випадках, передбачених законом, та для захисту наших прав і інтересів.</li>
+          </ul>
+          <h4 data-lang="text_0024"> 5. Захист даних</h4>
+          <p data-lang="text_0025"> Ми приймаємо всі необхідні технічні та організаційні заходи для захисту даних Користувачів від втрати, неправомірного доступу, зміни або розголошення. Ці заходи включають використання шифрування даних, захист паролів, контроль доступу та регулярний аудит безпеки.</p>
+          <h4 data-lang="text_0026"> 6. Використання cookies</h4>
+          <p data-lang="text_0027"> Ми використовуємо файли cookies та аналогічні технології для покращення роботи нашого сайту, забезпечення безпеки та надання персоналізованого контенту. Cookies допомагають нам зрозуміти, як Користувачі взаємодіють з нашим сайтом, і можуть використовуватися для показу цільової реклами. Користувачі можуть керувати налаштуваннями cookies через налаштування браузера, однак це може обмежити функціональність деяких частин нашого сайту.</p>
+          <h4 data-lang="text_0028"> 7. Відповідальна гра</h4>
+          <p data-lang="text_0029"> Ми дотримуємося принципів відповідальної гри та впровадили заходи, спрямовані на запобігання залежності від азартних ігор. Особиста інформація може бути використана для виявлення ознак проблемної поведінки та надання відповідної допомоги Користувачам.</p>
+          <h4 data-lang="text_0030"> 8. Права Користувачів</h4>
+          <p data-lang="text_0031"> Користувачі мають право:</p>
+          <ul>
+            <li data-lang="text_0032"> - Запитувати доступ до своєї особистої інформації.</li>
+            <li data-lang="text_0033"> - Вимагати виправлення невірних даних.</li>
+            <li data-lang="text_0034"> - Вимагати видалення даних у випадках, передбачених законом.</li>
+            <li data-lang="text_0035"> - Обмежувати обробку своїх даних в певних ситуаціях.</li>
+            <li data-lang="text_0036"> - Заперечувати проти обробки даних для маркетингових цілей.</li>
+            <li data-lang="text_0037"> - Передавати свої дані іншому постачальнику послуг.</li>
+          </ul>
+          <p data-lang="text_0038"> Для реалізації своїх прав Користувач може звернутися до нас за контактними даними, зазначеними нижче.</p>
+          <h4 data-lang="text_0039"> 9. Зміни в Політиці конфіденційності</h4>
+          <p data-lang="text_0040"> Ми залишаємо за собою право вносити зміни в цю Політику конфіденційності в будь-який час.</p>
+        </div>
+      </div>
+      <div class="popups__item popups__item_general-provision">
+        <div class="privacy-policy"><img class="form__close" src="img/close-w.svg" alt="close">
+          <h1 class="privacy-policy__title" data-lang="text_0041">Загальні положення та умови
+            <h4 data-lang="text_0042">1. Вступ</h4>
+            <p data-lang="text_0043">Ласкаво просимо на GMS Play! Ці Загальні положення та умови (далі — "Правила") регулюють використання веб-сайту [https://www.gmsplay.pro/](https://www.gmsplay.pro/) (далі — "Сайт", "ми", "нас", "наш") та наданих на ньому послуг. Будь ласка, уважно ознайомтеся з цими Правилами перед початком використання Сайту. Використовуючи Сайт, ви погоджуєтеся дотримуватися цих Правил. Якщо ви не згодні з будь-яким із пунктів, будь ласка, припиніть використання Сайту.</p>
+            <h4 data-lang="text_0044">2. Умови участі</h4>
+            <p data-lang="text_0045">2.1. Вікові обмеження</p>
+            <p data-lang="text_0046">Для участі в іграх та використання послуг, наданих на нашому Сайті, Користувачі повинні бути старше 18 років або досягти віку повноліття у своїй юрисдикції, якщо він перевищує 18 років. Ми залишаємо за собою право запитувати документи, що підтверджують вік Користувача, і блокувати доступ до Сайту у разі невідповідності віковим вимогам.</p>
+            <p data-lang="text_0047">2.2. Юридична відповідальність</p>
+            <p data-lang="text_0048">Користувачі зобов'язуються використовувати Сайт виключно в межах законодавства своєї юрисдикції. Користувач самостійно несе відповідальність за дотримання всіх застосовних законів і нормативних актів. Ми не несемо відповідальності за незаконне або неправомірне використання Сайту Користувачами.</p>
+            <h4 data-lang="text_0049">3. Реєстрація акаунта</h4>
+            <p data-lang="text_0050">3.1. Процес реєстрації</p>
+            <p data-lang="text_0051">Для участі в іграх на Сайті необхідно створити особистий акаунт. Під час реєстрації Користувач зобов'язаний надати достовірну та актуальну інформацію, яку запитує Сайт. Ми залишаємо за собою право відмовити в реєстрації або закрити акаунт у разі надання неправдивих даних.</p>
+            <p data-lang="text_0052">3.2. Конфіденційність даних</p>
+            <p data-lang="text_0053">Користувач несе відповідальність за збереження конфіденційності своїх даних для входу в акаунт. Будь-які дії, здійснені з використанням облікового запису Користувача, вважаються виконаними самим Користувачем. У разі підозри на несанкціонований доступ Користувач зобов'язаний негайно повідомити нас.</p>
+            <h4 data-lang="text_0054">4. Ігри та ставки</h4>
+            <p data-lang="text_0055">4.1. Прийняття ставок</p>
+            <p data-lang="text_0056">Сайт надає Користувачам можливість робити ставки на реальні кошти. Ми залишаємо за собою право обмежити, скасувати або відхилити будь-які ставки на власний розсуд, якщо запідозримо та будемо мати докази взлому чи використання багів/помилок сайту.</p>
+            <p data-lang="text_0057">4.2. Результати ігор</p>
+            <p data-lang="text_0058">Результати ігор визначаються випадковим чином з використанням сертифікованого генератора випадкових чисел (ГВЧ). Користувачі визнають, що результати всіх ігор на Сайті є остаточними і не підлягають зміні.</p>
+            <p data-lang="text_0059">4.3. Відповідальна гра</p>
+            <p data-lang="text_0060">Ми підтримуємо відповідальне ставлення до азартних ігор і пропонуємо різні інструменти, які допомагають Користувачам контролювати свої ігрові звички, такі як ліміти ставок і часу гри. Якщо вам потрібна допомога в контролі за грою, ви можете скористатися цими інструментами або зв'язатися з нашою службою підтримки.</p>
+            <h4 data-lang="text_0061">5. Фінансові операції</h4>
+            <p data-lang="text_0062">5.1. Депозити та зняття коштів</p>
+            <p data-lang="text_0063">Користувачі можуть вносити кошти на свій ігровий рахунок з використанням доступних на Сайті методів оплати. Зняття коштів можливе лише тим способом, яким був здійснений депозит, за умови виконання всіх вимог, що стосуються верифікації акаунта та виконання умов ставок. Зверніть увагу, що мінімальні та максимальні суми для депозитів і зняття коштів можуть відрізнятися залежно від методу оплати.</p>
+            <p data-lang="text_0064">5.2. Комісії та збори</p>
+            <p data-lang="text_0065">Ми можемо стягувати комісію за обробку транзакцій залежно від використаного методу оплати. Інформація про застосовні комісії буде доступна Користувачу перед завершенням транзакції. Користувач несе відповідальність за оплату будь-яких зборів, що стягуються банками або іншими фінансовими установами.</p>
+            <p data-lang="text_0066">5.3. Блокування та конфіскація коштів</p>
+            <p data-lang="text_0067">Ми залишаємо за собою право заблокувати або конфіскувати кошти на ігровому рахунку Користувача у випадках підозри на шахрайство, відмивання грошей, порушення цих Правил або інших протиправних дій.</p>
+            <h4 data-lang="text_0068">6. Бонуси та акції</h4>
+            <p data-lang="text_0069">6.1. Умови отримання бонусів</p>
+            <p data-lang="text_0070">Сайт може пропонувати різні бонуси та акції для своїх Користувачів. Умови отримання та використання бонусів будуть зазначені в описі кожної конкретної акції. Бонуси можуть бути надані у вигляді безкоштовних ставок, додаткових коштів на ігровий рахунок або інших привілеїв.</p>
+            <p data-lang="text_0071">6.2. Вимоги щодо відіграшу бонусів</p>
+            <p data-lang="text_0072">Усі бонуси підлягають певним умовам відіграшу, які мають бути виконані до можливості зняття бонусних коштів або виграшів, отриманих з їх використанням. Користувачі зобов'язані ознайомитися з цими умовами перед активацією бонусу.</p>
+            <h4 data-lang="text_0073">7. Обмеження відповідальності</h4>
+            <p data-lang="text_0074">Ми не несемо відповідальності за будь-які збитки, втрату даних, доходів, прибутку або інших активів, які можуть виникнути в результаті використання Сайту. Користувач погоджується, що використання Сайту здійснюється на його власний ризик.</p>
+            <h4 data-lang="text_0075">8. Зміни в правилах</h4>
+            <p data-lang="text_0076">Ми залишаємо за собою право вносити зміни в ці Правила в будь-який час. Оновлені версії Правил будуть публікуватися на Сайті із зазначенням дати останніх змін. Продовження використання Сайту після внесення змін означає згоду Користувача з новими умовами.</p>
+            <h4 data-lang="text_0077">9. Контактна інформація</h4>
+            <p data-lang="text_0078">Якщо у вас виникли запитання щодо цих Правил або інших аспектів роботи нашого Сайту, будь ласка, зв'яжіться з нами: gmsplaypro@gmail.com</p>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <section class="footer-bottom"> 
+      <div class="container">
+        <div class="footer-bottom__item">
+          <div class="footer-bottom__title" data-lang="text_123">Gmsplay</div>
+          <div class="footer-bottom__title_list" data-lang="text_124">Information</div>
+          <ul class="footer-bottom__menu">
+            <li><a class="footer-bottom__link footer-bottom__link_policy" href="/demo/privacy-policy.html" data-lang="text_125"></a></li>
+            <li><a class="footer-bottom__link" href="/demo/" data-lang="text_126"> </a></li>
+            <li><a class="footer-bottom__link footer-bottom__link_provision" href="/demo/general-provision.html" data-lang="text_127"></a></li>
+          </ul>
+          <div class="footer-bottom__btn-down"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="31.1111" height="31.1111" rx="5" fill="white" fill-opacity="0.15"></rect>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.12245 12.7864C8.3412 12.5679 8.63772 12.4452 8.94689 12.4452C9.25606 12.4452 9.55258 12.5679 9.77133 12.7864L15.558 18.573L21.3447 12.7864C21.4515 12.6717 21.5803 12.5798 21.7234 12.516C21.8665 12.4523 22.021 12.418 22.1776 12.4152C22.3343 12.4125 22.4899 12.4413 22.6352 12.4999C22.7804 12.5586 22.9124 12.646 23.0232 12.7567C23.134 12.8675 23.2213 12.9995 23.28 13.1448C23.3386 13.29 23.3675 13.4456 23.3647 13.6023C23.3619 13.7589 23.3276 13.9134 23.2639 14.0565C23.2001 14.1996 23.1082 14.3284 22.9936 14.4353L16.3824 21.0464C16.1637 21.2648 15.8672 21.3876 15.558 21.3876C15.2488 21.3876 14.9523 21.2648 14.7336 21.0464L8.12245 14.4353C7.90397 14.2165 7.78125 13.92 7.78125 13.6108C7.78125 13.3016 7.90397 13.0051 8.12245 12.7864Z" fill="white"></path>
+</svg>
+          </div>
+        </div>
+        <div class="footer-bottom__item footer-bottom__item_payment"><img src="img/visa.svg" alt="visa"><img src="img/mcf.svg" alt="mcf"><img src="img/g-pay.svg" alt="g-pay"><img src="img/pay.svg" alt="pay"><img src="img/bitcoin.svg" alt="bitcoin"><img src="img/qiwi.svg" alt="qiwi"><img src="img/lky.svg" alt="lky"><img src="img/skrill.svg" alt="skrill"><img src="img/payeer.svg" alt="payeer"><img src="img/jcb.svg" alt="jcb"></div>
+        <div class="footer-bottom__item footer-bottom__item_lang">
+          <div class="footer-bottom__listing"><a href="https://bookmaker-ratings.by/ru/review/obzor-bukmekerskoj-kontory-1win/"> <img src="img/listing-001.svg" alt=""></a><a href="https://betraja.net/betting-sites/1win/"> <picture><source srcset="img/listing-002.webp" type="image/webp"><img src="img/listing-002.png" alt=""></picture></a><a href="https://casinomentor.com/reviews/1win-casino"> <picture><source srcset="img/listing-003.webp" type="image/webp"><img src="img/listing-003.png" alt=""></picture></a><a href="https://bookmaker-ratings.by/ru/review/obzor-bukmekerskoj-kontory-1win/"> <picture><source srcset="img/listing-004.webp" type="image/webp"><img src="img/listing-004.png" alt=""></picture></a><a href="https://www.bestbitcoincasino.com/review/1wincasino"> <picture><source srcset="img/listing-005.webp" type="image/webp"><img src="img/listing-005.png" alt=""></picture></a></div>
+          <div class="footer-bottom__lang">
+            <ul class="lang">
+              <li><a class="lang__name lang__name_ua" href="#" data-lang="ua">
+                  <svg width="55" height="36" viewBox="0 0 55 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M-2.37961e-08 5.45455C-1.06539e-08 2.44208 2.44208 1.06539e-08 5.45455 2.37961e-08L49.0909 2.14165e-07C52.1034 2.27307e-07 54.5455 2.44208 54.5455 5.45455L54.5455 18L-7.85273e-08 18L-2.37961e-08 5.45455Z" fill="#00C7F2"/>
+<path d="M-2.37961e-08 5.45455C-1.06539e-08 2.44208 2.44208 1.06539e-08 5.45455 2.37961e-08L49.0909 2.14165e-07C52.1034 2.27307e-07 54.5455 2.44208 54.5455 5.45455L54.5455 18L-7.85273e-08 18L-2.37961e-08 5.45455Z" fill="#00C7F2"/>
+<path d="M-2.37961e-08 5.45455C-1.06539e-08 2.44208 2.44208 1.06539e-08 5.45455 2.37961e-08L49.0909 2.14165e-07C52.1034 2.27307e-07 54.5455 2.44208 54.5455 5.45455L54.5455 18L-7.85273e-08 18L-2.37961e-08 5.45455Z" fill="#00C7F2"/>
+<path d="M54.5469 30.5455C54.5469 33.5579 52.1048 36 49.0923 36L5.45597 36C2.4435 36 0.00141558 33.5579 0.00141597 30.5455L0.00141763 18L54.5469 18L54.5469 30.5455Z" fill="#F2CB00"/>
+</svg>Ua</a></li>
+              <li><a class="lang__name lang__name_en active" href="#" data-lang="en">
+                  <svg width="56" height="34" viewBox="0 0 56 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3043_1546)">
+<path d="M0 0V33.2H55.3333V0H0Z" fill="#012169"/>
+<path d="M0 0L55.3333 33.2ZM55.3333 0L0 33.2Z" fill="black"/>
+<path d="M0 0L55.3333 33.2M55.3333 0L0 33.2" stroke="white" stroke-width="6.64"/>
+<mask id="mask0_3043_1546" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="56" height="34">
+<path d="M27.6745 16.6H55.3411V33.2L27.6745 16.6ZM27.6745 16.6V33.2H0.0078125L27.6745 16.6ZM27.6745 16.6H0.0078125V0L27.6745 16.6ZM27.6745 16.6V0H55.3411L27.6745 16.6Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_3043_1546)">
+<path d="M0.0078125 0L55.3411 33.2ZM55.3411 0L0.0078125 33.2Z" fill="black"/>
+<path d="M0.0078125 0L55.3411 33.2M55.3411 0L0.0078125 33.2" stroke="#C8102E" stroke-width="4.42667"/>
+</g>
+<path d="M-1.10938 12.1736H23.2373V-1.10645H32.0906V12.1736H56.4373V21.0269H32.0906V34.3069H23.2373V21.0269H-1.10938V12.1736Z" fill="#C8102E" stroke="white" stroke-width="2.21333"/>
+</g>
+<defs>
+<clipPath id="clip0_3043_1546">
+<rect width="55.3333" height="33.2" rx="5.45" fill="white"/>
+</clipPath>
+</defs>
+</svg>En</a></li>
+              <li>
+                <ul class="lang__inner">
+                  <li><a class="lang__name lang__name_ua lang__name_inner" href="#" data-lang="ua">
+                      <svg width="55" height="36" viewBox="0 0 55 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M-2.37961e-08 5.45455C-1.06539e-08 2.44208 2.44208 1.06539e-08 5.45455 2.37961e-08L49.0909 2.14165e-07C52.1034 2.27307e-07 54.5455 2.44208 54.5455 5.45455L54.5455 18L-7.85273e-08 18L-2.37961e-08 5.45455Z" fill="#00C7F2"/>
+<path d="M-2.37961e-08 5.45455C-1.06539e-08 2.44208 2.44208 1.06539e-08 5.45455 2.37961e-08L49.0909 2.14165e-07C52.1034 2.27307e-07 54.5455 2.44208 54.5455 5.45455L54.5455 18L-7.85273e-08 18L-2.37961e-08 5.45455Z" fill="#00C7F2"/>
+<path d="M-2.37961e-08 5.45455C-1.06539e-08 2.44208 2.44208 1.06539e-08 5.45455 2.37961e-08L49.0909 2.14165e-07C52.1034 2.27307e-07 54.5455 2.44208 54.5455 5.45455L54.5455 18L-7.85273e-08 18L-2.37961e-08 5.45455Z" fill="#00C7F2"/>
+<path d="M54.5469 30.5455C54.5469 33.5579 52.1048 36 49.0923 36L5.45597 36C2.4435 36 0.00141558 33.5579 0.00141597 30.5455L0.00141763 18L54.5469 18L54.5469 30.5455Z" fill="#F2CB00"/>
+</svg>Ua</a></li>
+                  <li><a class="lang__name lang__name_en lang__name_inner" href="#" data-lang="en">
+                      <svg width="56" height="34" viewBox="0 0 56 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_3043_1546)">
+<path d="M0 0V33.2H55.3333V0H0Z" fill="#012169"/>
+<path d="M0 0L55.3333 33.2ZM55.3333 0L0 33.2Z" fill="black"/>
+<path d="M0 0L55.3333 33.2M55.3333 0L0 33.2" stroke="white" stroke-width="6.64"/>
+<mask id="mask0_3043_1546" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="56" height="34">
+<path d="M27.6745 16.6H55.3411V33.2L27.6745 16.6ZM27.6745 16.6V33.2H0.0078125L27.6745 16.6ZM27.6745 16.6H0.0078125V0L27.6745 16.6ZM27.6745 16.6V0H55.3411L27.6745 16.6Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_3043_1546)">
+<path d="M0.0078125 0L55.3411 33.2ZM55.3411 0L0.0078125 33.2Z" fill="black"/>
+<path d="M0.0078125 0L55.3411 33.2M55.3411 0L0.0078125 33.2" stroke="#C8102E" stroke-width="4.42667"/>
+</g>
+<path d="M-1.10938 12.1736H23.2373V-1.10645H32.0906V12.1736H56.4373V21.0269H32.0906V34.3069H23.2373V21.0269H-1.10938V12.1736Z" fill="#C8102E" stroke="white" stroke-width="2.21333"/>
+</g>
+<defs>
+<clipPath id="clip0_3043_1546">
+<rect width="55.3333" height="33.2" rx="5.45" fill="white"/>
+</clipPath>
+</defs>
+</svg>En</a></li>
+                </ul>
+              </li>
+            </ul><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.5287 13.3791C8.74745 13.1607 9.04397 13.0379 9.35314 13.0379C9.66231 13.0379 9.95883 13.1607 10.1776 13.3791L15.9643 19.1658L21.7509 13.3791C21.8577 13.2645 21.9865 13.1726 22.1296 13.1088C22.2727 13.045 22.4272 13.0108 22.5839 13.008C22.7405 13.0052 22.8961 13.034 23.0414 13.0927C23.1867 13.1514 23.3186 13.2387 23.4294 13.3495C23.5402 13.4603 23.6275 13.5923 23.6862 13.7375C23.7449 13.8828 23.7737 14.0384 23.771 14.1951C23.7682 14.3517 23.7339 14.5062 23.6701 14.6493C23.6064 14.7924 23.5144 14.9212 23.3998 15.028L16.7887 21.6391C16.5699 21.8576 16.2734 21.9803 15.9643 21.9803C15.6551 21.9803 15.3586 21.8576 15.1398 21.6391L8.5287 15.028C8.31022 14.8093 8.1875 14.5127 8.1875 14.2036C8.1875 13.8944 8.31022 13.5979 8.5287 13.3791Z" fill="white"/>
+</svg>					
+          </div>
+        </div>
+        <div class="footer-bottom__item" data-lang="text_94">© 2024 ByFalio.com. All rights reserved</div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__item footer__item_1">
+          <h3 class="footer__title" data-lang="text_2">24/7 support			</h3>
+        </div>
+        <div class="footer__item footer__item_2">
+          <div class="footer__caht"><a class="btn btn_chat" href="https://t.me/dvaplustri_23" data-lang="text_4">Chat </a><a href="https://t.me/dvaplustri_23">
+               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="31.1111" height="31.1111" rx="5" fill="white" fill-opacity="0.15"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.12245 12.7864C8.3412 12.5679 8.63772 12.4452 8.94689 12.4452C9.25606 12.4452 9.55258 12.5679 9.77133 12.7864L15.558 18.573L21.3447 12.7864C21.4515 12.6717 21.5803 12.5798 21.7234 12.516C21.8665 12.4523 22.021 12.418 22.1776 12.4152C22.3343 12.4125 22.4899 12.4413 22.6352 12.4999C22.7804 12.5586 22.9124 12.646 23.0232 12.7567C23.134 12.8675 23.2213 12.9995 23.28 13.1448C23.3386 13.29 23.3675 13.4456 23.3647 13.6023C23.3619 13.7589 23.3276 13.9134 23.2639 14.0565C23.2001 14.1996 23.1082 14.3284 22.9936 14.4353L16.3824 21.0464C16.1637 21.2648 15.8672 21.3876 15.558 21.3876C15.2488 21.3876 14.9523 21.2648 14.7336 21.0464L8.12245 14.4353C7.90397 14.2165 7.78125 13.92 7.78125 13.6108C7.78125 13.3016 7.90397 13.0051 8.12245 12.7864Z" fill="white"/>
+</svg></a>
+            <div class="footer__desc" data-lang="text_3">Contact Nai if you have any questions</div>
+          </div>
+        </div>
+      </div>
+    </footer><script src="https://www.google.com/recaptcha/api.js?render=YOUR_SITE_KEY&_v=20240920183825"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?_v=20240920183825"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs?_v=20240920183825" type="module"></script>
+    <script src="./js/main.min.js?_v=20240920183825"></script>
+  </body>
+</html>

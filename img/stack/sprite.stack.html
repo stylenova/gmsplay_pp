@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<title>SVG stack preview | svg-sprite</title>
+		<style>@charset "UTF-8";body{padding:0;margin:0;color:#666;background:#fafafa;font-family:Arial,Helvetica,sans-serif;font-size:1em;line-height:1.4}header{display:block;padding:3em 3em 2em 3em;background-color:#fff}header p{margin:2em 0 0 0}section{border-top:1px solid #eee;padding:2em 3em 0 3em}section ul{margin:0;padding:0}section li{display:inline;display:inline-block;background-color:#fff;position:relative;margin:0 2em 2em 0;vertical-align:top;border:1px solid #ccc;padding:1em 1em 3em 1em;cursor:default}.icon-box{margin:0;width:144px;height:144px;position:relative;background:#ccc url("data:image/gif;base64,R0lGODlhDAAMAIAAAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjk4OTI0MUY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjk4OTI0MkY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCOTg5MjNGRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCOTg5MjQwRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAwADAAAAhaEH6mHmmzcgzJAUG/NVGrfOZ8YLlABADs=") top left repeat;border:1px solid #ccc;display:table-cell;vertical-align:middle;text-align:center}.icon{display:inline;display:inline-block}h1{margin-top:0}h2{margin:0;padding:0;font-size:1em;font-weight:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:absolute;left:1em;right:1em;bottom:1em}footer{display:block;margin:0;padding:0 3em 3em 3em}footer p{margin:0;font-size:.7em}footer a{color:#0f7595;margin-left:0}</style>
+
+<!--
+
+Sprite shape dimensions
+====================================================================================================
+You will need to set the sprite shape dimensions via CSS when you use them as stack SVGs, otherwise
+they would become a huge 100% in size. You may use the following dimension classes for doing so.
+They might well be outsourced to an external stylesheet of course.
+
+-->
+
+<style type="text/css">
+	.svg-balance-doors-dims { width: 218px; height: 216px; }
+	.svg-bg-balance-dims { width: 158px; height: 179px; }
+	.svg-bg-doore-dims { width: 117px; height: 123px; }
+	.svg-border-game-dims { width: 640px; height: 104px; }
+	.svg-chat-dims { width: 32px; height: 32px; }
+	.svg-chest-dims { width: 101px; height: 85px; }
+	.svg-close-dims { width: 34px; height: 34px; }
+	.svg-doore-dims { width: 83px; height: 115px; }
+	.svg-dropdown-dims { width: 32px; height: 32px; }
+	.svg-dropdown-b-dims { width: 32px; height: 32px; }
+	.svg-en-dims { width: 56px; height: 34px; }
+	.svg-file-photo-dims { width: 24px; height: 24px; }
+	.svg-grandma-dims { width: 131px; height: 214px; }
+	.svg-grandmother-dims { width: 149px; height: 205px; }
+	.svg-icon-1-dims { width: 64px; height: 64px; }
+	.svg-lock-dims { width: 82px; height: 86px; }
+	.svg-menu-dims { width: 50px; height: 22px; }
+	.svg-ua-dims { width: 55px; height: 36px; }
+	.svg-user-dims { width: 200px; height: 237px; }
+</style>
+
+<!--
+====================================================================================================
+-->
+
+	</head>
+	<body>
+		<header>
+			<h1>SVG stack preview</h1>
+			<p>This preview features an SVG stack. Please have a look at the HTML source for further details and be aware of the following constraints:</p>
+			<ul>
+				<li>Your browser has to <a href="http://caniuse.com/#feat=svg-fragment" target="_blank" rel="noopener noreferrer">support SVG fragment identifiers</a> for SVG stacks to work.</li>
+				<li>Support for SVG fragment identifiers hasn't always been that decent. For older browsers you will have to use some prolyfill like <a href="https://github.com/preciousforever/SVG-Stacker/blob/master/fixsvgstack.jquery.js" target="_blank" rel="noopener noreferrer">fixsvgstack.jquery.js</a>.</li>
+			</ul>
+		</header>
+		<section>
+
+<!--
+
+SVG stack
+====================================================================================================
+These SVG images make use of fragment identifiers (IDs) to reference certain portions of the
+external sprite. By default, all shapes inside the sprite are hidden by CSS. The `:target` pseudo
+selector is used to show the very shape that is referenced by the fragment identifier.
+
+-->
+
+			<ul>
+
+				<li title="balance-doors">
+					<div class="icon-box">
+
+						<!-- balance-doors -->
+						<img src="../icons/icons.svg#balance-doors" class="svg-balance-doors-dims" alt="balance-doors"/>
+
+					</div>
+					<h2>balance-doors</h2>
+				</li>
+				<li title="bg-balance">
+					<div class="icon-box">
+
+						<!-- bg-balance -->
+						<img src="../icons/icons.svg#bg-balance" class="svg-bg-balance-dims" alt="bg-balance"/>
+
+					</div>
+					<h2>bg-balance</h2>
+				</li>
+				<li title="bg-doore">
+					<div class="icon-box">
+
+						<!-- bg-doore -->
+						<img src="../icons/icons.svg#bg-doore" class="svg-bg-doore-dims" alt="bg-doore"/>
+
+					</div>
+					<h2>bg-doore</h2>
+				</li>
+				<li title="border-game">
+					<div class="icon-box">
+
+						<!-- border-game -->
+						<img src="../icons/icons.svg#border-game" class="svg-border-game-dims" alt="border-game"/>
+
+					</div>
+					<h2>border-game</h2>
+				</li>
+				<li title="chat">
+					<div class="icon-box">
+
+						<!-- chat -->
+						<img src="../icons/icons.svg#chat" class="svg-chat-dims" alt="chat"/>
+
+					</div>
+					<h2>chat</h2>
+				</li>
+				<li title="chest">
+					<div class="icon-box">
+
+						<!-- chest -->
+						<img src="../icons/icons.svg#chest" class="svg-chest-dims" alt="chest"/>
+
+					</div>
+					<h2>chest</h2>
+				</li>
+				<li title="close">
+					<div class="icon-box">
+
+						<!-- close -->
+						<img src="../icons/icons.svg#close" class="svg-close-dims" alt="close"/>
+
+					</div>
+					<h2>close</h2>
+				</li>
+				<li title="doore">
+					<div class="icon-box">
+
+						<!-- doore -->
+						<img src="../icons/icons.svg#doore" class="svg-doore-dims" alt="doore"/>
+
+					</div>
+					<h2>doore</h2>
+				</li>
+				<li title="dropdown">
+					<div class="icon-box">
+
+						<!-- dropdown -->
+						<img src="../icons/icons.svg#dropdown" class="svg-dropdown-dims" alt="dropdown"/>
+
+					</div>
+					<h2>dropdown</h2>
+				</li>
+				<li title="dropdown-b">
+					<div class="icon-box">
+
+						<!-- dropdown-b -->
+						<img src="../icons/icons.svg#dropdown-b" class="svg-dropdown-b-dims" alt="dropdown-b"/>
+
+					</div>
+					<h2>dropdown-b</h2>
+				</li>
+				<li title="en">
+					<div class="icon-box">
+
+						<!-- en -->
+						<img src="../icons/icons.svg#en" class="svg-en-dims" alt="en"/>
+
+					</div>
+					<h2>en</h2>
+				</li>
+				<li title="file-photo">
+					<div class="icon-box">
+
+						<!-- file-photo -->
+						<img src="../icons/icons.svg#file-photo" class="svg-file-photo-dims" alt="file-photo"/>
+
+					</div>
+					<h2>file-photo</h2>
+				</li>
+				<li title="grandma">
+					<div class="icon-box">
+
+						<!-- grandma -->
+						<img src="../icons/icons.svg#grandma" class="svg-grandma-dims" alt="grandma"/>
+
+					</div>
+					<h2>grandma</h2>
+				</li>
+				<li title="grandmother">
+					<div class="icon-box">
+
+						<!-- grandmother -->
+						<img src="../icons/icons.svg#grandmother" class="svg-grandmother-dims" alt="grandmother"/>
+
+					</div>
+					<h2>grandmother</h2>
+				</li>
+				<li title="icon-1">
+					<div class="icon-box">
+
+						<!-- icon-1 -->
+						<img src="../icons/icons.svg#icon-1" class="svg-icon-1-dims" alt="icon-1"/>
+
+					</div>
+					<h2>icon-1</h2>
+				</li>
+				<li title="lock">
+					<div class="icon-box">
+
+						<!-- lock -->
+						<img src="../icons/icons.svg#lock" class="svg-lock-dims" alt="lock"/>
+
+					</div>
+					<h2>lock</h2>
+				</li>
+				<li title="menu">
+					<div class="icon-box">
+
+						<!-- menu -->
+						<img src="../icons/icons.svg#menu" class="svg-menu-dims" alt="menu"/>
+
+					</div>
+					<h2>menu</h2>
+				</li>
+				<li title="ua">
+					<div class="icon-box">
+
+						<!-- ua -->
+						<img src="../icons/icons.svg#ua" class="svg-ua-dims" alt="ua"/>
+
+					</div>
+					<h2>ua</h2>
+				</li>
+				<li title="user">
+					<div class="icon-box">
+
+						<!-- user -->
+						<img src="../icons/icons.svg#user" class="svg-user-dims" alt="user"/>
+
+					</div>
+					<h2>user</h2>
+				</li>
+			</ul>
+
+<!--
+====================================================================================================
+-->
+
+		</section>
+		<footer>
+			<p>Generated at Fri, 20 Sep 2024 15:38:19 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
+		</footer>
+	</body>
+</html>
