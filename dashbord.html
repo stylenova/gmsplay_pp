@@ -1,0 +1,111 @@
+<!-- Вызов svg snipents +icon("name-class", "modifier"), сам миксин подключаеться в шалонах --><!DOCTYPE html>
+<html lang="ru-Ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashbord
+    </title>
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css?_v=20240926011222">
+    <link rel="stylesheet" href="./css/dashbord.min.css?_v=20240926011222">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <div class="header__item header__item_info header-info">
+            <div class="header-info__item">
+              <div class="header-info__email"></div>
+            </div>
+            <div class="header-info__item header-info__item_phone">
+              <div class="header-info__android"></div>
+              <div class="header-info__apple"></div>
+            </div>
+          </div>
+          <div class="header__item header__item_logo"><a href="/">gmsplay</a></div>
+          <div class="header__item header__item_menu">
+            <div class="menu-icon">
+              <svg class="icon icon_close">
+                <use xlink:href="./img/icons/icons.svg#close"></use>
+              </svg>
+              <svg class="icon icon_menu">
+                <use xlink:href="./img/icons/icons.svg#menu"></use>
+              </svg>
+            </div>
+            <ul class="menu">
+              <li><a href="accaoutn.html" data-lang="text_5">Accaoutn</a></li>
+              <li><a href="finding.html" data-lang="text_5">Finding</a></li>
+              <li><a href="dashbord.html" data-lang="text_5">Dashbord</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="dashbord"> 
+      <div class="container">
+        <div class="dashbord__item dashbord__item_title">
+          <h1 class="dashbord__title title-online">Dashbord</h1>
+        </div>
+        <div class="dashbord__item dashbord__item_info">
+          <div class="dashbord-filters">
+            <div class="dashbord-filters__item dashbord-filters__item-head" date-filters=""><span id="date-range-label">За все время</span></div>
+          </div>
+          <div class="dashbord-info-list">
+            <div class="dashbord-info-list__item"><span>Example text</span><span>2</span></div>
+            <div class="dashbord-info-list__item"><span>Example text</span><span>2</span></div>
+            <div class="dashbord-info-list__item"><span>Example text</span><span>2</span></div>
+            <div class="dashbord-info-list__item"><span>Example text</span><span>2</span></div>
+            <div class="dashbord-info-list__item"><span>Example text</span><span>2</span></div>
+            <div class="dashbord-info-list__item"><span class="dashbord-info-list__date">Example text</span><span>2</span></div>
+          </div><a class="dashbord-info-btn" href="#"> <span>Доход:</span><span>225$</span></a>
+        </div>
+      </div>
+    </section>
+    <section class="dashbord-resalt">
+      <div class="container">
+        <div class="dashbord-resalt-list">
+          <div class="dashbord-resalt-list__item">
+            <div class="selector-options disable">
+              <div class="selector-options__item selector-options__item-head" date-filters="">Фильтры</div>
+              <div class="selector-options__item selector-options__item-option selector-option">
+                <div class="selector-option__item active">Фильтры</div>
+                <div class="selector-option__item">Фильтр 1</div>
+                <div class="selector-option__item">Фильтр 2</div>
+              </div>
+              <div class="selector-options__item selector-options__item_arrow selector-arrow_b"></div>
+            </div>
+            <div class="selector-options disable">
+              <div class="selector-options__item selector-options__item-head" date-filters="">Фильтры</div>
+              <div class="selector-options__item selector-options__item-option selector-option">
+                <div class="selector-option__item active">Фильтры</div>
+                <div class="selector-option__item">Фильтр 3</div>
+                <div class="selector-option__item">Фильтр 4</div>
+              </div>
+              <div class="selector-options__item selector-options__item_arrow selector-arrow_b"></div>
+            </div>
+            <div class="selector-options">
+              <div class="selector-options__item selector-options__item-head" date-filters="">Фильтры</div>
+              <div class="selector-options__item selector-options__item-option selector-option">
+                <div class="selector-option__item active">Фильтры</div>
+                <div class="selector-option__item">Фильтр 5</div>
+                <div class="selector-option__item">Фильтр 6</div>
+              </div>
+              <div class="selector-options__item selector-options__item_arrow selector-arrow_b"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container"></div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?_v=20240926011222"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.js?_v=20240926011222"></script>
+    <script src="./js/main.min.js?_v=20240926011222"></script>
+  </body>
+</html>
